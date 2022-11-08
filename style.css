@@ -181,4 +181,32 @@
 
 /* Esercizio dodici */
 
+.ex-12-button:hover .ex-12-top-white{
+    animation: top-btn-mov 2s linear alternate infinite;
+}
 
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom-btn-mov 2s linear alternate infinite;
+}
+
+@keyframes top-btn-mov{
+    from{
+        top:-10px;
+        left:10%;
+    }
+    to{
+        top:-10px;
+        left:calc(100% - 60px);
+    }
+}
+
+@keyframes bottom-btn-mov{
+    from{
+        bottom:-10px;
+        right:20%;
+    }
+    to{
+        bottom:-10px;
+        right:calc(100% - 60px);
+    }
+}
