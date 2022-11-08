@@ -83,8 +83,11 @@
 }
 
 .ex-7-img:hover{
-    filter: grayscale(1);
+    filter:grayscale(0.5) sepia(0.5);
 }
+
+/* Ottavo esercizio */
+
 
 
 
